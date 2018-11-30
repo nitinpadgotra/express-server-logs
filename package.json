@@ -1,0 +1,15 @@
+{
+  "name": "express-server-logs",
+  "version": "1.0.0",
+  "description": "npm module for logging in express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "logger"
+  ],
+  "author": "Nitin Padgotra",
+  "license": "ISC"
+}
