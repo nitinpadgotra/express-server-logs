@@ -1,6 +1,6 @@
 {
   "name": "express-server-logs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npm module for logging in express",
   "repository": {
     "type" : "git",
