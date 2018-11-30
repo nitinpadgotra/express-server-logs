@@ -14,7 +14,7 @@ function init(productionMode = false, options = {
   headers: true,
   pathParam: true,
   bodyParam: true,
-  queryParam: false
+  queryParam: true
 }) {
   _this = this;
   this.productionMode = productionMode;
