@@ -11,5 +11,8 @@
     "logger"
   ],
   "author": "Nitin Padgotra",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
