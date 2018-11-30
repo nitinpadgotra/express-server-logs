@@ -56,13 +56,15 @@ const log = new _expressLog(true, {
 ```
 
 ## Using custom messages from express-server-logs
+You can log your custom error messages to console using predefined messages in express-server-logs
+Pre defined custom messages are of type info(), success(), error(), warning()
 
 ## Example
 ```node
 log.info('test info'); // for info color will be blue
 log.success('test success'); // for success color is green
 log.error('test error'); // for error color is red
-log.warning('test warning'); for warning color is yellow
+log.warning('test warning'); // for warning color is yellow
 ```
 
 ## Note
