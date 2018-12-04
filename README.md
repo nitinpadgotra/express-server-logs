@@ -18,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(log.logger);
 
 ```
+![Request logs](media/requestlogs.png?raw=true "Request logs")
 
 Using with options
 express-server-logs takes 2 arguments one for productionMode and other is options
@@ -59,6 +60,13 @@ const log = new _expressLog(true, {
 You can log your custom error messages to console using predefined messages in express-server-logs
 Pre defined custom messages are of type info(), success(), error(), warning()
 
+### Optional: We can also overides the default console to use it anywhere, like this
+```node
+const log = new _expressLog();
+console = log;
+console.info('test info'); // same like our log.info('test info')
+```
+
 ## Example
 ```node
 log.info('test info'); // for info color will be blue
@@ -66,6 +74,8 @@ log.success('test success'); // for success color is green
 log.error('test error'); // for error color is red
 log.warning('test warning'); // for warning color is yellow
 ```
+![Sample logs](media/samplelogs.png?raw=true "Sample logs")
+
 
 ## Note
 * express-server-logs should be use after the body parser * 
